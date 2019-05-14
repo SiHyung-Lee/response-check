@@ -26,7 +26,7 @@ class ResponseCheck extends Component {
             clearTimeout(this.timeout);
             this.setState({
                 state: 'waiting',
-                message: '너무 성급하시군요. 초록색이 된 후에 클릭하세요',
+                message: '너무 성급하시군요. 클릭해서 다시 시작하세요',
             });
         } else if (state === 'now') {
             this.setState({
